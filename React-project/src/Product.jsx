@@ -1,10 +1,11 @@
 import './Product.css'
-function Product() {
+function Product({title,description,functions}) {
     return (
         <div className="Product">
-            <h3>Product Title</h3>
-            <h3>Product Description</h3>
-            </div>
+            <h3>{title}</h3>
+            <p>{description}</p>
+            <p>{functions.a}</p>
+        </div>
     );
 }
 
