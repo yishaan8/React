@@ -1,11 +1,10 @@
 import Product from "./Product";
 function ProductTab() {
-let options={a:"hitech",b:"durable",c:"lightweight"};
 return (
 <>
-        <Product title="Laptop" description="High performance laptop" functions={options}/>
-        <Product title="Smartphone" description="Latest model smartphone" functions={options}/>
-        <Product title="Tablet" description="Lightweight tablet" functions={options}/>
+        <Product title="Laptop" description="High performance laptop" price={400000}/>
+        <Product title="Smartphone" description="Latest model smartphone" price={20000}/>
+        <Product title="Tablet" description="Lightweight tablet" price={30000}/>
 </>
 );
 }
